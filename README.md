@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="docs/logo.png" alt="SLATEWIRE" width="128">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/logo-dark.png">
+    <img src="docs/logo-light.png" alt="SLATEWIRE" width="128">
+  </picture>
 </p>
 
 <h1 align="center">SLATEWIRE</h1>
