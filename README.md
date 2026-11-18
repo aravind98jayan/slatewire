@@ -20,6 +20,25 @@ SLATEWIRE pulls live RSS/Atom feeds from 41 sources across 30 countries -- gover
 labs and security newsrooms -- and turns them into a single desktop dashboard. It runs entirely on your PC:
 no account, no cloud sync, no telemetry. AI briefs are optional and use your own Google Gemini key.
 
+## Screenshots
+
+**Dashboard** -- hot news, severity-sorted category tiles and the source map on one page.
+
+![SLATEWIRE dashboard](docs/screenshots/01-dashboard.png)
+
+**Article brief** -- open any row to see the brief, the other sources running the
+same story, and the archive / open-original actions.
+
+![Article brief](docs/screenshots/02-brief.png)
+
+**Sources** -- health per feed and one switch per feed; quiet feeds are marked,
+not hidden.
+
+![Sources panel](docs/screenshots/03-sources.png)
+
+Captured without a Gemini key, so the brief shows the source text (`SOURCE EXCERPT`). With a key the same
+card holds an English summary.
+
 ## What it does
 
 - **Live feed, sorted for you** -- severity (critical / high / routine), category tiles, same-story
@@ -111,7 +130,7 @@ Edge WebView2 backend.
 
 ```
 slatewire/              application, static page, tests and documentation
-docs/                   logo used by this README
+docs/                   logo and screenshots used by this README
 INSTALL.bat             creates .venv, installs dependencies, makes the shortcut
 SLATEWIRE.bat           starts the app
 SLATEWIRE-debug.bat     starts it with a console, for troubleshooting
