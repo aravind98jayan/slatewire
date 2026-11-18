@@ -7,6 +7,18 @@
 <p align="center">A local-first desktop cybersecurity news reader for Windows.</p>
 
 <p align="center">
+  <a href="https://github.com/aravind98jayan/slatewire/releases/latest"><img
+    src="https://img.shields.io/github/v/release/aravind98jayan/slatewire?style=flat-square&amp;labelColor=30363D&amp;color=0E7A63"
+    alt="Latest release"></a>
+  <a href="LICENSE"><img
+    src="https://img.shields.io/github/license/aravind98jayan/slatewire?style=flat-square&amp;labelColor=30363D&amp;color=0E7A63"
+    alt="MIT licence"></a>
+  <img
+    src="https://img.shields.io/badge/Windows-10%20%7C%2011-0E7A63?style=flat-square&amp;labelColor=30363D"
+    alt="Windows 10 and 11">
+</p>
+
+<p align="center">
   <a href="https://github.com/aravind98jayan/slatewire/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
   <a href="slatewire/README.md">Documentation</a>
