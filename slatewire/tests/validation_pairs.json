@@ -1,0 +1,920 @@
+{
+  "description": "Labelled same-story pairs from a real SLATEWIRE fetch (103 articles, 2026-11-09). test_dedupe.py clusters the whole corpus, then compares the cluster ids of each pair. No network access is needed.",
+  "corpus": [
+    {
+      "id": "art-000",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "desc": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "source": "The Hacker News",
+      "published_ts": 1793981318
+    },
+    {
+      "id": "art-001",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 122",
+      "desc": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia   Shutting the Door on the XCPE Botnet&#160;&#160; DarkBlinders: Inside an Active Espionage Campaign   Free the Model, Sell the Gateway: Prompt [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794147869
+    },
+    {
+      "id": "art-002",
+      "title": "Attackers Exploit Third-Party Provider to Raid French Bank Crédit Mutuel Arkéa",
+      "desc": "French Bank Crédit Mutuel Arkéa says hackers exploited a service provider to steal up to $133 million using the bank’s own account. French cooperative bank Crédit Mutuel Arkéa was hit by a cyberattack that let attackers make fraudulent transactions of up to $133 million, forcing it to suspend certain systems. Crédit Mutuel Arkéa is a [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794133547
+    },
+    {
+      "id": "art-003",
+      "title": "DGS-3130-30TS: H/W Rev. B1 — Multiple DDP Protocol and Firmware Security Vulnerabilities Reported",
+      "desc": "Classification: Critical, Solution: Workaround, Exploit Maturity: Proof-of-Concept, CVSSv3.1: None, CVEs: , Summary: On November 2, 2026, D-Link received a coordinated vulnerability disclosure concerning multiple security vulnerabilities identified during an independent security assessment of the D-Link DGS-3130-30TS managed switch.\n\nThe reported vulnerabilities involve the D-Link Discovery Protocol (DDP) and certain components of the device's firmware security architecture. According to the security researcher, successful exploitation of certain vulnerabilities may allow an attacker with acce",
+      "source": "NCSC-FI (vulnerabilities)",
+      "published_ts": 1794106806
+    },
+    {
+      "id": "art-004",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "desc": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1794060619
+    },
+    {
+      "id": "art-005",
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "desc": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793990812
+    },
+    {
+      "id": "art-006",
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "desc": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793984663
+    },
+    {
+      "id": "art-007",
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "desc": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793977210
+    },
+    {
+      "id": "art-008",
+      "title": "TU München schaltet nach Cyberangriff Campussystem ab",
+      "desc": "Die TUM hat ihr zentrales Campus-Management-System offline genommen, nachdem sich Angreifer unberechtigten Zugriff verschafft und Daten entwendet haben.",
+      "source": "heise Security",
+      "published_ts": 1793973960
+    },
+    {
+      "id": "art-009",
+      "title": "iOS-Blockierungsmodus umgangen: Wie der jüngste Exploit von Calif.io arbeitet",
+      "desc": "Erneut sind die Sicherheitsforscher von Calif.io in den Schlagzeilen. Nun gibt es erste Details zum jüngsten Exploit – und wie Apple reagieren kann.",
+      "source": "heise Security",
+      "published_ts": 1793965380
+    },
+    {
+      "id": "art-010",
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "desc": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
+      "source": "The Hacker News",
+      "published_ts": 1793944734
+    },
+    {
+      "id": "art-011",
+      "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
+      "desc": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
+      "source": "The Register",
+      "published_ts": 1793939114
+    },
+    {
+      "id": "art-012",
+      "title": "US Government Email Systems Open to Abuse Thanks to Typos",
+      "desc": "Erroneous or outdated DNS records can give attackers surprising powers over organizations' email systems.",
+      "source": "Dark Reading",
+      "published_ts": 1793914505
+    },
+    {
+      "id": "art-013",
+      "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+      "desc": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+      "source": "Dark Reading",
+      "published_ts": 1793912447
+    },
+    {
+      "id": "art-014",
+      "title": "ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration",
+      "desc": "Research by: Alexey Bukhteyev Key Takeaways Introduction Earlier this year, Check Point Research disclosed a security flaw in ChatGPT&#8217;s code-execution runtime that allowed sensitive conversation data to be silently exfiltrated to an attacker-controlled server through DNS tunneling, a hidden outbound channel that bypassed the runtime&#8217;s network isolation. A fix for this issue was promptly deployed. [&#8230;]\nThe post ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration appeared first on Check Point Research.",
+      "source": "Check Point Research",
+      "published_ts": 1793887211
+    },
+    {
+      "id": "art-015",
+      "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+      "desc": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+      "source": "Dark Reading",
+      "published_ts": 1793828898
+    },
+    {
+      "id": "art-016",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "desc": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1794065135
+    },
+    {
+      "id": "art-017",
+      "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
+      "desc": "Europe's supermarket freezer hacks show how security issues can cascade across an industry, disrupting supply chains at scale.",
+      "source": "Dark Reading",
+      "published_ts": 1793973600
+    },
+    {
+      "id": "art-018",
+      "title": "CARNET-ov Nacionalni CERT upozorava: Uoči Crnog petka pripazite na lažne internetske trgovine i prijevare",
+      "desc": "Građanima se preporučuje provjera vjerodostojnosti internetskih trgovina i ponuda prije kupnjekako bi zaštitili osobne i financijske podatke CARNET-ov Nacionalni CERT upozorava građane na povećan rizik od internetskih prijevara uoči Crnog petka (engl. Black Friday). Razdoblje velikih popusta i pojačane internetske kupnje kibernetički kriminalci koriste za širenje lažnih internetskih trgovina, obmanjujućih oglasa i phishing poruka s...\nThe post CARNET-ov Nacionalni CERT upozorava: Uoči Crnog petka pripazite na lažne internetske trgovine i prijevare first appeared on CERT.hr.",
+      "source": "CERT.hr",
+      "published_ts": 1793872099
+    },
+    {
+      "id": "art-019",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "desc": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
+      "source": "Krebs on Security",
+      "published_ts": 1793853377
+    },
+    {
+      "id": "art-020",
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "desc": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793968642
+    },
+    {
+      "id": "art-021",
+      "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 7",
+      "desc": "Security Affairs AI-CYBERSECURITY newsletter includes a collection of the best articles and research on AI in the international landscape Artificial intelligence is rapidly changing cybersecurity, reshaping both the techniques used by attackers and the tools available to defenders. AI agents can automate tasks, analyze large amounts of data, discover vulnerabilities and accelerate offensive operations. At [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794151726
+    },
+    {
+      "id": "art-022",
+      "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
+      "desc": "CERT-IN warns of ‘significant escalation’ in AI-powered attacks, some after victims tried to improve defences",
+      "source": "The Register",
+      "published_ts": 1793927860
+    },
+    {
+      "id": "art-023",
+      "title": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
+      "desc": "No documented attacks against American supermarkets…yet",
+      "source": "The Register",
+      "published_ts": 1793918226
+    },
+    {
+      "id": "art-024",
+      "title": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
+      "desc": "The latest bug hunting model 'avoided exploiting out-of-scope services over 99 percent of the time', claims House of Altman",
+      "source": "The Register",
+      "published_ts": 1793898000
+    },
+    {
+      "id": "art-025",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "desc": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+      "source": "The Hacker News",
+      "published_ts": 1793896966
+    },
+    {
+      "id": "art-026",
+      "title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+      "desc": "Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.",
+      "source": "Securelist",
+      "published_ts": 1793872811
+    },
+    {
+      "id": "art-027",
+      "title": "Security Alert (A26-11-10): Multiple Vulnerabilities in Microsoft Edge",
+      "desc": "Microsoft has released security updates to address multiple vulnerabilities in Microsoft Edge.",
+      "source": "GovCERT.HK",
+      "published_ts": 1793937600
+    },
+    {
+      "id": "art-028",
+      "title": "High Threat Security Alert (A26-11-09): Vulnerability in OpenSSH",
+      "desc": "OpenSSH has released a new version to address a vulnerability in various versions of OpenSSH.",
+      "source": "GovCERT.HK",
+      "published_ts": 1793937600
+    },
+    {
+      "id": "art-029",
+      "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+      "desc": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+      "source": "Dark Reading",
+      "published_ts": 1793897316
+    },
+    {
+      "id": "art-030",
+      "title": "Latvia and Canada Hold Fifth Joint Threat Hunting Workshop",
+      "desc": "From October 19 to 23, 2026, CERT.LV, the Latvian Ministry of Defence and the Canadian Armed Forces (CAF) held the fifth joint Threat Hunting Workshop. This year's program also included a Cyber Threat Intelligence Workshop delivered by U.S. European Command (EUCOM).",
+      "source": "CERT.LV",
+      "published_ts": 1793876566
+    },
+    {
+      "id": "art-031",
+      "title": "Security Alert (A26-11-08): Multiple Vulnerabilities in Citrix Products",
+      "desc": "Citrix has released security updates to address multiple vulnerabilities in several Citrix products or components.",
+      "source": "GovCERT.HK",
+      "published_ts": 1793851200
+    },
+    {
+      "id": "art-032",
+      "title": "Security Alert (A26-11-07): Multiple Vulnerabilities in Cisco Products",
+      "desc": "Cisco has released security updates to address multiple vulnerabilities in several Cisco devices and software.",
+      "source": "GovCERT.HK",
+      "published_ts": 1793851200
+    },
+    {
+      "id": "art-033",
+      "title": "Virtualization security: attack layers and misconfiguration impact",
+      "desc": "A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.",
+      "source": "Securelist",
+      "published_ts": 1793959212
+    },
+    {
+      "id": "art-034",
+      "title": "Don’t Hand Propaganda a Gift: Reading the Brenner Base Tunnel SE Breach Calmly",
+      "desc": "Brenner Base Tunnel SE confirms a breach and Everest claims 812 GB. What we know, what we don’t, and why overblown alarm helps propaganda more than the attackers. Brenner Base Tunnel (BBT) SE, the company building the Brenner Base Tunnel between Italy and Austria, has confirmed that unauthorized people accessed some of its data. The [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794159976
+    },
+    {
+      "id": "art-035",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "desc": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1794152588
+    },
+    {
+      "id": "art-036",
+      "title": "Security Affairs newsletter Round 603 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "desc": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Inside ARTEX: AI Hacking Tools, Exposed Servers and South Korean Bank Breaches One Product Isn&#8217;t the Problem: [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794145723
+    },
+    {
+      "id": "art-037",
+      "title": "Inside ARTEX: AI Hacking Tools, Exposed Servers and South Korean Bank Breaches",
+      "desc": "Hunt.io traced ARTEX servers and AI-powered hacking tools used in breaches affecting seven South Korean financial institutions. Between late September and early October 2026, seven South Korean financial institutions had data breached through internet-facing systems. About 66,000 to 67,000 people and around 2,200 corporations were affected, and personal, employment, income and loan data was exposed. [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794081378
+    },
+    {
+      "id": "art-038",
+      "title": "NHS breach helpline left staff carrying a 'significant emotional burden'",
+      "desc": "Team given a day's notice faced distressed callers, safeguarding decisions during project that stretched from 2 weeks to 11",
+      "source": "The Register",
+      "published_ts": 1794047400
+    },
+    {
+      "id": "art-039",
+      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "desc": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1794004045
+    },
+    {
+      "id": "art-040",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "desc": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793974627
+    },
+    {
+      "id": "art-041",
+      "title": "Attacken auf Cisco UCS Central Software und Unified CM können bevorstehen",
+      "desc": "Sicherheitsupdates schließen Lücken in Cisco UCS Central Software und Cisco Unified Communications Manager.",
+      "source": "heise Security",
+      "published_ts": 1793963460
+    },
+    {
+      "id": "art-042",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "desc": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
+      "source": "The Hacker News",
+      "published_ts": 1793952289
+    },
+    {
+      "id": "art-043",
+      "title": "October crypto-tracker hack: Access cracked, law enforcement tokens packed",
+      "desc": "Agentic 'on-path attack' went after Chainalysis's tools, which are routinely called upon to assist police investigations",
+      "source": "The Register",
+      "published_ts": 1793901780
+    },
+    {
+      "id": "art-044",
+      "title": "One Product Isn’t the Problem: Monetizing an AI Portfolio Without Confusing Your Customers",
+      "desc": "Software vendors can boost revenue by tracking customer usage across products, while AI accelerates pricing and consumption decisions. It is hard to find any software vendor that sells just one product. Portfolios have expanded from modules to editions, cloud services, add-ons, and now AI capabilities.&#160; A lot can be achieved through an expanded portfolio. IDC [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794077335
+    },
+    {
+      "id": "art-045",
+      "title": "Sichere Architektur für KI-Agenten im Backoffice",
+      "desc": "KI-Agenten lassen sich nur sicher in Systeme einbinden, wenn die Architektur für eine Trennung von Daten und Handlungen sorgt.",
+      "source": "heise Security",
+      "published_ts": 1794036060
+    },
+    {
+      "id": "art-046",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "desc": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.\n\nSoftware security company Apiiro said yesterday that 1,122 public",
+      "source": "The Hacker News",
+      "published_ts": 1794033857
+    },
+    {
+      "id": "art-047",
+      "title": "White House Network Appears in Global Residential Proxy Traffic",
+      "desc": "Layer3 found residential proxy traffic using the White House network, raising concerns about potential exposure of internal systems. Layer3 Intel says it found residential proxy traffic leaving through the White House network. The researchers spotted it while browsing their new Residential Proxy Observatory, a tool that gives a global view of residential proxy and anonymized [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794003454
+    },
+    {
+      "id": "art-048",
+      "title": "Agents reveal secrets when offered to team up with each other",
+      "desc": "If you wouldn't put it on GitHub, don't give models access to it",
+      "source": "The Register",
+      "published_ts": 1794001163
+    },
+    {
+      "id": "art-049",
+      "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+      "desc": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late.",
+      "source": "Dark Reading",
+      "published_ts": 1794000456
+    },
+    {
+      "id": "art-050",
+      "title": "AI Gave Your Incident Archive a Second Job",
+      "desc": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+      "source": "Dark Reading",
+      "published_ts": 1793989650
+    },
+    {
+      "id": "art-051",
+      "title": "Mindfactory informiert Kunden über Cyberangriff",
+      "desc": "Hardwarehändler Mindfactory ist Opfer eines Cyberangriffs geworden. Kunden und die Datenschutzbehörde wurden informiert, die Ermittlungen laufen.",
+      "source": "heise Security",
+      "published_ts": 1793985720
+    },
+    {
+      "id": "art-052",
+      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+      "desc": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793978731
+    },
+    {
+      "id": "art-053",
+      "title": "macOS 27.3: Apple behebt letztes eMudhra-Leck – aber es wird dauern",
+      "desc": "Safari und andere Browser auf dem Mac sind vor dem schweren TLS-Sicherheitsproblem zwar sicher, das Terminal aber nur mit Handarbeit. Apple hilft verspätet.",
+      "source": "heise Security",
+      "published_ts": 1793972040
+    },
+    {
+      "id": "art-054",
+      "title": "DigiCert admits 16-month security lapse exposed customer information",
+      "desc": "Botched server move left the door open, and DigiCert took months to notice someone had wandered in",
+      "source": "The Register",
+      "published_ts": 1793970900
+    },
+    {
+      "id": "art-055",
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "desc": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his",
+      "source": "The Hacker News",
+      "published_ts": 1793964600
+    },
+    {
+      "id": "art-056",
+      "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
+      "desc": "Cyber Security and Resilience Bill could pave way for searches, seizures, and inspections when operators lose control of automated systems",
+      "source": "The Register",
+      "published_ts": 1793962800
+    },
+    {
+      "id": "art-057",
+      "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+      "desc": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
+      "source": "Dark Reading",
+      "published_ts": 1793955600
+    },
+    {
+      "id": "art-058",
+      "title": "Hospital gave very sick doctor a special PC for his personal, erm, pleasure",
+      "desc": "Support chap told to either allow blatant policy violations or find a new job",
+      "source": "The Register",
+      "published_ts": 1793946660
+    },
+    {
+      "id": "art-059",
+      "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "source": "SANS ISC",
+      "published_ts": 1793930402
+    },
+    {
+      "id": "art-060",
+      "title": "Operação de influência russa tem como alvo generalizado a América Latina",
+      "desc": "A operação, que contou com o uso de inteligência artificial, utilizou e-mails falsos, documentos governamentais falsificados e a criação de uma organização local para atacar escolas no Peru e no Equador, entre outras ações.",
+      "source": "Dark Reading",
+      "published_ts": 1793916803
+    },
+    {
+      "id": "art-061",
+      "title": "Signature 27: Motorolas teuerstes Handy ist das erste mit GrapheneOS-Support",
+      "desc": "Motorolas erstes Smartphone mit GrapheneOS-Unterstützung ist da: Das High-End-Modell Signature 27 ist jedoch das Gegenteil eines Schnäppchens.",
+      "source": "heise Security",
+      "published_ts": 1793884440
+    },
+    {
+      "id": "art-062",
+      "title": "SonicWall Global Management System verwundbar, bekommt aber keine Updates mehr",
+      "desc": "SonicWalls Managementplattform Global Management System für IT-Security-Appliances ist angreifbar. Admins müssen auf den Nachfolger upgraden.",
+      "source": "heise Security",
+      "published_ts": 1793883060
+    },
+    {
+      "id": "art-063",
+      "title": "OpenSSH und Alpine Linux warnen vor nischigem, aber gravierendem Bug",
+      "desc": "OpenSSH 10.6p2 umgeht einen Bug, der zwar schwerwiegend ist, aber eher wenige Setups betrifft – und wohl auch nicht in OpenSSH selbst liegt.",
+      "source": "heise Security",
+      "published_ts": 1793879160
+    },
+    {
+      "id": "art-064",
+      "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "source": "SANS ISC",
+      "published_ts": 1793877911
+    },
+    {
+      "id": "art-065",
+      "title": "U.S. CISA adds SonicWall SonicOS SSLVPN flaw to its Known Exploited Vulnerabilities catalog",
+      "desc": "U.S. CISA adds SonicWall SonicOS SSLVPN vulnerability CVE-2026-19868 to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a SonicWall SonicOS SSLVPN flaw, tracked as CVE-2026-19868 (CVSS score of 7.5), to its Known Exploited Vulnerabilities (KEV) catalog. CVE-2026-19868 is an authentication bypass vulnerability affecting the SSL VPN service in SonicWall SonicOS. [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1794042598
+    },
+    {
+      "id": "art-066",
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "desc": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "source": "The Hacker News",
+      "published_ts": 1793966803
+    },
+    {
+      "id": "art-067",
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "desc": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
+      "source": "The Hacker News",
+      "published_ts": 1793943550
+    },
+    {
+      "id": "art-068",
+      "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+      "desc": "Google heeft kwetsbaarheden verholpen in Android.\n\nSamsung heeft de voor Samsung Mobile relevante kwetsbaarheden verholpen in hun producten. De ernstige kwetsbaarheden betreffen onder andere mogelijkheden voor het uitvoeren van willekeurige code op afstand (Remote Code Execution) en het verkrijgen van verhoogde systeemrechten (Privilege Escalation). Hierdoor kunnen aanvallers ongeautoriseerde toegang krijgen tot systeemonderdelen en de controle over het apparaat verkrijgen. Er zijn op dit moment geen berichten bekend over actief misbruik van deze kwetsbaarheden.",
+      "source": "NCSC-NL advisories",
+      "published_ts": 1793881602
+    },
+    {
+      "id": "art-069",
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "desc": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.&#xd;",
+      "source": "SANS ISC",
+      "published_ts": 1794152673
+    },
+    {
+      "id": "art-070",
+      "title": "SonicWall SonicOS Affected By Multiple Vulnerabilities",
+      "desc": "Classification: Severe, Solution: Official Fix, Exploit Maturity: Not Defined, CVSSv3.1: 8.8, CVEs: CVE-2026-77708, CVE-2026-77709, CVE-2026-82308, CVE-2026-107154, CVE-2026-107155, CVE-2026-19703, CVE-2026-19868, Summary: SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks.\n\nThe vulnerability, tracked as CVE-2026-19868, allows attackers with valid credentials for an alternate authentication method to bypass SAML authentication controls, potentially including SAML-enforced multi-factor a",
+      "source": "NCSC-FI (vulnerabilities)",
+      "published_ts": 1794106805
+    },
+    {
+      "id": "art-071",
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "desc": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1794009655
+    },
+    {
+      "id": "art-072",
+      "title": "SonicWall security advisory (AV26-1133)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793998851
+    },
+    {
+      "id": "art-073",
+      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "desc": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+      "source": "BleepingComputer",
+      "published_ts": 1793996659
+    },
+    {
+      "id": "art-074",
+      "title": "JetBrains security advisory (AV26-1132)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793992992
+    },
+    {
+      "id": "art-075",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "desc": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "source": "The Hacker News",
+      "published_ts": 1793978509
+    },
+    {
+      "id": "art-076",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "desc": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "source": "The Hacker News",
+      "published_ts": 1793977112
+    },
+    {
+      "id": "art-077",
+      "title": "Mozilla security advisory (AV26-1131)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793972926
+    },
+    {
+      "id": "art-078",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "desc": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+      "source": "The Hacker News",
+      "published_ts": 1793966795
+    },
+    {
+      "id": "art-079",
+      "title": "OpenBSD security advisory (AV26-1130)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793905254
+    },
+    {
+      "id": "art-080",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "desc": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
+      "source": "The Hacker News",
+      "published_ts": 1793896952
+    },
+    {
+      "id": "art-081",
+      "title": "Rubyonrails security advisory (AV26-1129)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793893310
+    },
+    {
+      "id": "art-082",
+      "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+      "desc": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still nothing new. I suspect this is for CVE-2023-20198.&#xd;",
+      "source": "SANS ISC",
+      "published_ts": 1793892548
+    },
+    {
+      "id": "art-083",
+      "title": "Jetzt patchen! Attacken auf Zyxel-Switches beobachtet",
+      "desc": "Derzeit haben es Angreifer auf Netzwerkswitches der GS1900-Serie von Zyxel abgesehen. Sicherheitspatches sind verfügbar.",
+      "source": "heise Security",
+      "published_ts": 1793867820
+    },
+    {
+      "id": "art-084",
+      "title": "Android security advisory – November 2026 monthly rollup (AV26-1128)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793822586
+    },
+    {
+      "id": "art-085",
+      "title": "Cisco security advisory (AV26-1127)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793822259
+    },
+    {
+      "id": "art-086",
+      "title": "GitHub security advisory (AV26-1126)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793821851
+    },
+    {
+      "id": "art-087",
+      "title": "WatchGuard security advisory (AV26-1125)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793821174
+    },
+    {
+      "id": "art-088",
+      "title": "SolarWinds security advisory (AV26-1124)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793821101
+    },
+    {
+      "id": "art-089",
+      "title": "Docker security advisory (AV26-1123)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793820986
+    },
+    {
+      "id": "art-090",
+      "title": "MongoDB security advisory (AV26-1122)",
+      "desc": "",
+      "source": "Canadian Cyber Centre",
+      "published_ts": 1793820411
+    },
+    {
+      "id": "art-091",
+      "title": "Sabotage an Kühlsystemen: Warum deutsche Geheimdienste nun eingeschaltet sind",
+      "desc": "Nach Angriffen auf Kühlsysteme in Supermärkten europaweit ermitteln nun auch Verfassungsschutz und BND. Die Täter nutzen Schwachstellen in Fernwartungszugängen.",
+      "source": "heise Security",
+      "published_ts": 1794072720
+    },
+    {
+      "id": "art-092",
+      "title": "Cyber Brief 26-11 - October 2026",
+      "desc": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any item in this Brief can be provided upon request. Cyber Briefs are TLP:CLEAR.",
+      "source": "CERT-EU Threat Intelligence",
+      "published_ts": 1793977200
+    },
+    {
+      "id": "art-093",
+      "title": "OpenAI Rates GPT-6 Cyber Critical After Major Vulnerability Discoveries",
+      "desc": "OpenAI GPT-6 Cyber found 81 high-severity Firefox flaws and hundreds of Linux bugs, raising new questions about AI-powered cyber risks. OpenAI has introduced GPT-6 Cyber, a model built for security research that it says finds and fixes vulnerabilities better and stays within the limits researchers set far more reliably. These are OpenAI’s own results and [&#8230;]",
+      "source": "Security Affairs",
+      "published_ts": 1793967965
+    },
+    {
+      "id": "art-094",
+      "title": "ALERTĂ: Vulnerabilități critice exploatate activ în Synology",
+      "desc": "CONTEXT\nAu fost semnalate activități malițioase care vizează dispozitive de tip Network Attache...",
+      "source": "DNSC (CERT-RO)",
+      "published_ts": 1793966510
+    },
+    {
+      "id": "art-095",
+      "title": "Kritisk OpenSSH-fejl kan give adgang til Alpine Linux-servere",
+      "desc": "Kritisk OpenSSH-fejl kan give adgang til Alpine Linux-servere\n\neskil\n\nFri, 11/06/2026 - 12:31",
+      "source": "DKCERT",
+      "published_ts": 1793964713
+    },
+    {
+      "id": "art-096",
+      "title": "NCSC – CERT-SE veckobrev v.45",
+      "desc": "I veckans brev kan du läsa om de cyberangrepp som drabbade flera livsmedelsbutiker i Sverige och andra europeiska länder tidigare i veckan.",
+      "source": "CERT-SE",
+      "published_ts": 1793962800
+    },
+    {
+      "id": "art-097",
+      "title": "Vulnerability in KAMSOFT ZSIRep CLIENT library",
+      "desc": "Improper Certificate Validation vulnerability (CVE-2026-113618) has been found in KAMSOFT ZSIRep CLIENT library.",
+      "source": "CERT Polska",
+      "published_ts": 1793962500
+    },
+    {
+      "id": "art-098",
+      "title": "O kibernetičkim incidentima u rashladnim sustavima diljem Europske unije",
+      "desc": "O kibernetičkim incidentima u rashladnim sustavima diljem Europske unije Nakon niza kibernetičkih incidenata usmjerenih na komercijalne rashladne sustave u više država članica Europske unije, europske institucije i nadležna tijela za kibernetičku sigurnost upozorili su na potrebu hitne primjene sigurnosnih mjera. Nacionalni CERT dosad nije zabilježio prijave napada ni pokušaja napada na rashladne uređaje i sustave...\nThe post O kibernetičkim incidentima u rashladnim sustavima diljem Europske unije first appeared on CERT.hr.",
+      "source": "CERT.hr",
+      "published_ts": 1793958797
+    },
+    {
+      "id": "art-099",
+      "title": "Inyección SQL en SIREC de Atmira",
+      "desc": "SQL injection in Atmira’s SIREC\nFri, 11/06/2026 - 09:40\n\n\n            Aviso\n      \n  \n    Affected Resources\n              SIREC by Atmira. Affected versions not specified.\n          \n\n  \n    Description\n              INCIBE has coordinated the disclosure of a high severity vulnerability affecting Atmira’s SIREC, a debt collection and recovery management platform. The vulnerability was discovered by Luis Ovejero Martin.This vulnerability has been assigned the following code, CVSS v4.0 base score, CVSS vector and CWE vulnerability type:CVE-2026-123087 | CVSS v4.0: 8,7 | CVSS:4.0/AV:N/AC:L/AT:N/",
+      "source": "INCIBE-CERT",
+      "published_ts": 1793953595
+    },
+    {
+      "id": "art-100",
+      "title": "Get root on a musl Linux system by slamming it with an overly long password",
+      "desc": "Decade-old vulnerability in OpenSSH is now fixed, so get a-patchin'",
+      "source": "The Register",
+      "published_ts": 1793903340
+    },
+    {
+      "id": "art-101",
+      "title": "Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
+      "desc": "Key Points Introduction ARTEX is a Chinese open-source, AI-powered penetration testing platform designed to help security teams assess systems they own or are authorized to test. It uses large language models (LLMs) to coordinate multiple AI agents that plan tests, run security tools, and record evidence of potential vulnerabilities. Its web dashboard brings together assets, [&#8230;]\nThe post Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns appeared first on Check Point Research.",
+      "source": "Check Point Research",
+      "published_ts": 1793899326
+    },
+    {
+      "id": "art-102",
+      "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
+      "desc": "Zyxel heeft een kwetsbaarheid verholpen in de firmware van de Zyxel GS1900-24E netwerk switch, specifiek in versie 2.90(AAHK.2)C0 en eerder. De kwetsbaarheid betreft een out-of-bounds write in het CGI-programma van de management-interface van het apparaat. Een niet-geauthenticeerde aanvaller met toegang tot de management-interface kan via speciaal vervaardigde HTTP-verzoeken commando's uitvoeren op het systeem. De fout ontstaat door onjuiste bounds checking in de CGI-component, wat kan leiden tot het uitvoeren van commando's. Volgens openbare nieuwsberichten zou de kwetsbaarheid actief als zer",
+      "source": "NCSC-NL advisories",
+      "published_ts": 1793888702
+    }
+  ],
+  "pairs": [
+    {
+      "id": "openai-bc-thn",
+      "same_story": true,
+      "a_id": "art-073",
+      "b_id": "art-076"
+    },
+    {
+      "id": "openai-thn-sa",
+      "same_story": true,
+      "a_id": "art-076",
+      "b_id": "art-093"
+    },
+    {
+      "id": "openai-thn-register",
+      "same_story": true,
+      "a_id": "art-076",
+      "b_id": "art-024"
+    },
+    {
+      "id": "chainalysis-bc-thn",
+      "same_story": true,
+      "a_id": "art-040",
+      "b_id": "art-042"
+    },
+    {
+      "id": "chatgpt-lockdown-cpr-thn",
+      "same_story": true,
+      "a_id": "art-014",
+      "b_id": "art-080"
+    },
+    {
+      "id": "dlink-ncscfi",
+      "same_story": true,
+      "a_id": "art-020",
+      "b_id": "art-003"
+    },
+    {
+      "id": "french-bank-bc-sa",
+      "same_story": true,
+      "a_id": "art-016",
+      "b_id": "art-002"
+    },
+    {
+      "id": "artex-cpr-sa",
+      "same_story": true,
+      "a_id": "art-101",
+      "b_id": "art-037"
+    },
+    {
+      "id": "openssh-thn-register",
+      "same_story": true,
+      "a_id": "art-025",
+      "b_id": "art-100"
+    },
+    {
+      "id": "openssh-thn-heise",
+      "same_story": true,
+      "a_id": "art-025",
+      "b_id": "art-063"
+    },
+    {
+      "id": "openssh-govcert-thn",
+      "same_story": true,
+      "a_id": "art-028",
+      "b_id": "art-025"
+    },
+    {
+      "id": "sonicwall-bc-sa",
+      "same_story": true,
+      "a_id": "art-071",
+      "b_id": "art-065"
+    },
+    {
+      "id": "freezer-darkreading-register",
+      "same_story": true,
+      "a_id": "art-017",
+      "b_id": "art-023"
+    },
+    {
+      "id": "zyxel-ncscnl-heise",
+      "same_story": true,
+      "a_id": "art-102",
+      "b_id": "art-083"
+    },
+    {
+      "id": "android-ncscnl-ccn",
+      "same_story": true,
+      "a_id": "art-068",
+      "b_id": "art-084"
+    },
+    {
+      "id": "whitehouse-sa-krebs",
+      "same_story": true,
+      "a_id": "art-047",
+      "b_id": "art-019"
+    },
+    {
+      "id": "govcert-citrix-vs-cisco",
+      "same_story": false,
+      "a_id": "art-031",
+      "b_id": "art-032"
+    },
+    {
+      "id": "govcert-citrix-vs-edge",
+      "same_story": false,
+      "a_id": "art-031",
+      "b_id": "art-027"
+    },
+    {
+      "id": "govcert-cisco-vs-edge",
+      "same_story": false,
+      "a_id": "art-032",
+      "b_id": "art-027"
+    },
+    {
+      "id": "sans-stormcast-fri-thu",
+      "same_story": false,
+      "a_id": "art-059",
+      "b_id": "art-064"
+    },
+    {
+      "id": "sa-malware-vs-ai-newsletter",
+      "same_story": false,
+      "a_id": "art-001",
+      "b_id": "art-021"
+    },
+    {
+      "id": "sa-malware-vs-round603",
+      "same_story": false,
+      "a_id": "art-001",
+      "b_id": "art-036"
+    },
+    {
+      "id": "ccn-sonicwall-vs-cisco",
+      "same_story": false,
+      "a_id": "art-072",
+      "b_id": "art-085"
+    },
+    {
+      "id": "ccn-sonicwall-vs-github",
+      "same_story": false,
+      "a_id": "art-072",
+      "b_id": "art-086"
+    },
+    {
+      "id": "ccn-jetbrains-vs-mozilla",
+      "same_story": false,
+      "a_id": "art-074",
+      "b_id": "art-077"
+    },
+    {
+      "id": "ccn-android-vs-cisco",
+      "same_story": false,
+      "a_id": "art-084",
+      "b_id": "art-085"
+    },
+    {
+      "id": "ncscfi-dlink-vs-sonicwall",
+      "same_story": false,
+      "a_id": "art-003",
+      "b_id": "art-070"
+    },
+    {
+      "id": "thn-claude-code-vs-dispatch",
+      "same_story": false,
+      "a_id": "art-046",
+      "b_id": "art-078"
+    },
+    {
+      "id": "register-agents-vs-bane",
+      "same_story": false,
+      "a_id": "art-048",
+      "b_id": "art-011"
+    },
+    {
+      "id": "darkreading-uk-sovereignty-vs-infra",
+      "same_story": false,
+      "a_id": "art-049",
+      "b_id": "art-057"
+    },
+    {
+      "id": "sans-cisco-ios-vs-heise-cisco-ucs",
+      "same_story": false,
+      "a_id": "art-082",
+      "b_id": "art-041"
+    },
+    {
+      "id": "ncscnl-zyxel-vs-android",
+      "same_story": false,
+      "a_id": "art-102",
+      "b_id": "art-068"
+    }
+  ]
+}

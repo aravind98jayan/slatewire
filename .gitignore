@@ -1,0 +1,33 @@
+# Runtime data written next to app.py (all local, none of it belongs in git)
+slatewire/news_data.json
+slatewire/history.json
+slatewire/read.json
+slatewire/settings.json
+slatewire/briefs_cache.json
+slatewire/archive.json
+slatewire/archive.json.bak
+slatewire/archive.json.corrupt-*
+slatewire/archive.txt
+slatewire/notifier_state.json
+slatewire/app_state.json
+slatewire/kev_cache.json
+slatewire/source_health.json
+slatewire/custom_sources.json
+slatewire/exports/
+slatewire/logs/
+slatewire/news_*_probe.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaged builds
+*.zip
+dist/
+build/

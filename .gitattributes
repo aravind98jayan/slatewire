@@ -1,0 +1,5 @@
+# Keep Windows launch scripts usable when the repo is cloned on Windows.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+# Shell helpers keep Unix endings.
+*.sh text eol=lf
